@@ -1,0 +1,6 @@
+loveify.py -- A Python script that changes .zip or .tar.gz files, as 
+downloaded from GitHub or created by various tools, to .love files.
+
+Usage: python loveify.py infile outfile
+
+Requires at least Python 2.6
