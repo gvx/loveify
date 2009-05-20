@@ -18,9 +18,10 @@ else:
 
 for name in names:
 	f = open_file(name)
-	n = name.split('/', 1)[1]
-	if n:
-		out.writestr(n, f.read())
-	f.close()
+	if f:
+		n = name.split('/', 1)[1]
+		if n:
+			out.writestr(n, f.read())
+		f.close()
 arch.close()
 out.close()
